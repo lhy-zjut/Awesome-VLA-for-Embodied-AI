@@ -1,9 +1,13 @@
 <div align="center">
 
 <h1 align="center"><strong>基于视觉-语言-动作模型的具身智能研究进展</strong></h1>
+
 <b>刘锐, 王文冠, 杨易<sup>*</sup></b>
+
 <b>浙江大学计算机科学与技术学院</b>
+
 <b><sup>*</sup>通讯作者</b>
+</div>
 
 ## 🏠 About
 
