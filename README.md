@@ -1,5 +1,14 @@
-## 一、单系统 VLA 模型（Single-System VLA）
+## 🏠 About
 
+具身智能作为人工智能与机器人学交叉的前沿领域， 旨在使智能体通过与物理世界的动态交互来感知、推理并执行任务。本文按照模型内部 **推理与控制耦合方式** 的不同，对现有 VLA 方法进行整理。整体来看，VLA 研究已从早期的统一端到端建模，逐渐发展出强调推理-执行分离与多层决策分解的结构化范式。
+
+## 🔍 Overview
+- **[单系统VLA](#单系统VLA)**：采用统一网络直接完成视觉理解、语言对齐与动作输出，突出端到端建模能力。
+- **[双系统VLA](#双系统VLA)**：将高层认知推理与低层动作控制拆分为两个协同模块，突出“慢思考 + 快执行”的结构优势。
+- **[层次化系统VLA](#层次化系统VLA)**：通过多层决策结构显式建模任务规划、子目标分解与动作执行过程，突出长时程推理与复杂任务组织能力。
+
+## 单系统VLA
+<a id="单系统VLA"></a>
 | 方法 | 论文标题 | 分类 | 发表期刊或会议 | 年份 | 论文 | 代码 |
 |---|---|---|---|---:|---|---|
 | RT-2 | RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control | 单系统 VLA | CoRL | 2023 | [Paper](https://arxiv.org/abs/2307.15818) | - |
@@ -28,8 +37,8 @@
 | BitVLA | BitVLA: 1-bit Vision-Language-Action Models for Robotics Manipulation | 单系统 VLA | arXiv | 2025 | [Paper](https://arxiv.org/abs/2506.07530) | [GitHub](https://github.com/ustcwhy/BitVLA) |
 | Mole-VLA | MoLe-VLA: Dynamic Layer Routing for Multimodal Reasoning | 单系统 VLA | arXiv | 2024 | [Paper](https://arxiv.org/abs/2409.09221) | [GitHub](https://github.com/RoyZry98/MoLe-VLA-Pytorch/) |
 
-## 二、双系统 VLA 模型（Dual-System VLA）
-
+## 双系统VLA
+<a id="双系统VLA"></a>
 | 方法 | 论文标题 | 分类 | 发表期刊或会议 | 年份 | 论文 | 代码 |
 |---|---|---|---|---:|---|---|
 | DP-VLA | A Dual Process VLA: Efficient Robotic Manipulation Leveraging VLM | 双系统 VLA | arXiv | 2024 | [Paper](https://arxiv.org/abs/2410.15549) | - |
@@ -54,8 +63,8 @@
 | Villa-X | Villa-X: Structured Vision-Action Fusion via Joint Diffusion Modeling | 双系统 VLA | arXiv | 2025 | [Paper](https://arxiv.org/abs/2504.07122) | - |
 | GraspVLA | GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data | 双系统 VLA | arXiv | 2025 | [Paper](https://arxiv.org/abs/2505.03233) | [GitHub](https://github.com/PKU-EPIC/GraspVLA) |
 
-## 三、层次化系统 VLA 模型（Hierarchical-System VLA）
-
+## 层次化系统VLA
+<a id="层次化系统VLA"></a>
 | 方法 | 论文标题 | 分类 | 发表期刊或会议 | 年份 | 论文 | 代码 |
 |---|---|---|---|---:|---|---|
 | MomanipVLA | MoManipVLA: Transferring Vision-Language-Action Models for General Mobile Manipulation | 层次化系统 VLA | CVPR | 2025 | [Paper](https://doi.org/10.1109/CVPR42601.2025.98504) | - |
